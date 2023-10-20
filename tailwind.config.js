@@ -10,7 +10,7 @@ export default {
             //     'desktop-background': "url('')"
             // }
             fontFamily: {
-                jetbrains: ['JetBrains', 'monospace']
+                jetbrains: ['JetBrains Mono', 'monospace']
             },
         },
     },
