@@ -5,9 +5,7 @@ import ResumeBtn from '../components/ResumeBtn'
 import SocialLinks from '../components/SocialLinks';
 export default function Mobile() {
     return (
-        // transform: translate(40%);
-        // font-size: 27px;
-        // font-weight: 700;
+        
         <>
             <div className=' h-screen relative'>
 
