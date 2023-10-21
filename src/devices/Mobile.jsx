@@ -2,6 +2,7 @@ import React from 'react'
 import background from '../assets/background.jpg';
 import logo from '../assets/logo.png'
 import ResumeBtn from '../components/ResumeBtn'
+import SocialLinks from '../components/SocialLinks';
 export default function Mobile() {
     return (
         // transform: translate(40%);
@@ -34,8 +35,14 @@ export default function Mobile() {
                         <span className='text-[#F7941D]'>Portfolio in</span> progress
                     </h3>
                 </div>
-                <div className=' flex items-center h-[60vh] ml-[10%]'>
-                    <ResumeBtn />
+                <div className=' flex items-center h-[67vh] ml-[10%]'>
+                    <div>
+                        <ResumeBtn />
+                        <SocialLinks />
+                    </div>
+                </div>
+
+                <div className=''>
                 </div>
             </div>
 
