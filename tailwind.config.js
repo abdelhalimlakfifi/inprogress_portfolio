@@ -12,6 +12,10 @@ export default {
             fontFamily: {
                 jetbrains: ['JetBrains Mono', 'monospace']
             },
+            colors: {
+                'main-blue':'#1B2440',
+                'main-orange':'#F7941D'
+            }
         },
     },
     plugins: [],
