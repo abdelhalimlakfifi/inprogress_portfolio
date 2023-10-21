@@ -8,7 +8,7 @@ import SocialLinks from '../components/SocialLinks';
 
 export default function Tablet() {
     return (
-        <>
+        <div className='hidden md:block lg:hidden'>
             <div className=' h-screen relative'>
                 <img src={background} className=' w-full h-full object-cover object-[60%] absolute z-[-1]' alt="" />
                 <div className='w-full h-full bg-black absolute opacity-50  z-[-1]'></div>
@@ -102,6 +102,6 @@ export default function Tablet() {
 
             </div>
             
-        </>
+        </div>
     )
 }

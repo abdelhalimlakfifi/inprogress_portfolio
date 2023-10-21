@@ -8,12 +8,11 @@ import Tablet from './devices/Tablet';
 
 function App() {
     return (
-
-
-        <Desktop />
-        
-        // <Tablet />
-        // <Mobile />
+        <>
+            <Desktop/>
+            <Tablet />
+            <Mobile />
+        </>
     )
 }
 

@@ -6,7 +6,7 @@ import SocialLinks from '../components/SocialLinks';
 export default function Mobile() {
     return (
         
-        <>
+        <div className='block md:hidden lg:hidden'>
             <div className=' h-screen relative'>
 
                 <img src={background} className=' w-full h-full object-cover object-[60%] absolute z-[-1]' alt="" />
@@ -45,6 +45,6 @@ export default function Mobile() {
             </div>
 
 
-        </>
+        </div>
     )
 }
